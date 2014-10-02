@@ -25,10 +25,6 @@ namespace Company.Module.Application.AggregateRootServices
         Patient CreatePatient(PatientDTO patientDTO);
 
         //// ----------------------------------------------------------------------------------------------------------
-		 
-        ITestResult ProcessTest(ITestSpecifications testSpecifications);
-
-        //// ----------------------------------------------------------------------------------------------------------
     }
 
     /*

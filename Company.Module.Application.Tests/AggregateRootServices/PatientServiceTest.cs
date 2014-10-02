@@ -182,7 +182,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
             var mappedPatient = CreatePatientDTO(patient);
 
             var mappingEngine = this.mocks.StrictMock<IMappingEngine>();
-            Expect.Call(mappingEngine.Map<IPatient, PatientDTO>(patient)).Return(mappedPatient);
+            Expect.Call(mappingEngine.Map<Patient, PatientDTO>(patient)).Return(mappedPatient);
 
             var unitOfWork = this.mocks.StrictMock<IUnitOfWork>();
 
@@ -221,7 +221,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
             var mappedPatient = CreatePatientDTO(patient);
 
             var mappingEngine = this.mocks.StrictMock<IMappingEngine>();
-            Expect.Call(mappingEngine.Map<IPatient, PatientDTO>(patient)).Return(mappedPatient);
+            Expect.Call(mappingEngine.Map<Patient, PatientDTO>(patient)).Return(mappedPatient);
 
             var unitOfWork = this.mocks.StrictMock<IUnitOfWork>();
 
@@ -273,7 +273,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
             var result = service.CreatePatient(patientDTO);
 
             // Assert
-            Assert.AreEqual(PatientId, result);
+            Assert.AreEqual(insertedPatient, result);
         }
 
         //// ----------------------------------------------------------------------------------------------------------

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity.Infrastructure;
-using System.Linq;
+﻿using System.Collections.Generic;
 
 using Company.Module.Domain;
-using Company.Module.Repositories.EntityFramework;
 
-namespace Company.Module.Repositories
+namespace Company.Module.Repositories.EntityFramework
 {
     /// <summary>
     /// Repository Pattern:  Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.  
@@ -15,12 +11,6 @@ namespace Company.Module.Repositories
     public class PatientRepository : GenericRepository<Patient>, IPatientRepository
     {
         //// ----------------------------------------------------------------------------------------------------------
-
-        //public PatientRepository(IObjectContextAdapter contextAdapter)
-        //    : base(contextAdapter)
-        //{
-        //    this.disposed = false;
-        //}
 
         public PatientRepository(IUnitOfWork unitOfWork)
             : base(unitOfWork)
@@ -38,7 +28,7 @@ namespace Company.Module.Repositories
 
         public Patient GetById(int id)
         {
-            return Get(id);
+            return GetEager(id);
         }
 
         //// ----------------------------------------------------------------------------------------------------------

@@ -1,26 +1,29 @@
-﻿using System.Collections.Generic;
+﻿using Company.Module.Domain;
 
-using Company.Module.Domain;
-
-namespace Company.Module.Repositories
+namespace Company.Module.Repositories.EntityFramework
 {
-    public interface IPatientRepository
+    public class TestResultRepository : GenericRepository<TestResult>, ITestResultRepository
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        IEnumerable<Patient> GetAll();
+        public TestResultRepository(IUnitOfWork unitOfWork)
+            : base(unitOfWork)
+        {
+        }
 
         //// ----------------------------------------------------------------------------------------------------------
-
-        Patient GetById(int id);
+		 
+        public TestResult GetById(int id)
+        {
+            return Get(id);
+        }
 
         //// ----------------------------------------------------------------------------------------------------------
-
-        Patient GetByNhsNumber(string nhsNumber);
-
-        //// ----------------------------------------------------------------------------------------------------------
-
-        Patient Insert(Patient patient);
+		 
+        public TestResult Insert(TestResult testResult)
+        {
+            return Add(testResult);
+        }
 
         //// ----------------------------------------------------------------------------------------------------------
     }

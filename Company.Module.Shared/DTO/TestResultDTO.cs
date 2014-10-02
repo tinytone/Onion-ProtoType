@@ -1,26 +1,24 @@
-﻿using System.Collections.Generic;
+﻿using System;
 
-using Company.Module.Domain;
-
-namespace Company.Module.Repositories
+namespace Company.Module.Shared.DTO
 {
-    public interface IPatientRepository
+    public class TestResultDTO
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        IEnumerable<Patient> GetAll();
+        public int Id { get; set; }
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        Patient GetById(int id);
+        public int PatientId { get; set; }
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        Patient GetByNhsNumber(string nhsNumber);
+        public bool Outcome { get; set; }
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        Patient Insert(Patient patient);
+        public DateTime TestDate { get; set; }
 
         //// ----------------------------------------------------------------------------------------------------------
     }
