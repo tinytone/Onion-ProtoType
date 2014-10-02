@@ -86,16 +86,14 @@
     <Compile Include="Configuration\TestResultConfiguration.cs" />
     <Compile Include="EntityFramework\Context.cs" />
     <Compile Include="EntityFramework\IContext.cs" />
-    <Compile Include="EntityFramework\IMyContext.cs" />
+    <Compile Include="ITestResultRepository.cs" />
     <Compile Include="IPatientRepository.cs" />
     <Compile Include="IGenericRepository.cs" />
     <Compile Include="IUnitOfWork.cs" />
-    <Compile Include="EntityFramework\MyContext.cs" />
-    <Compile Include="PatientRepository.cs" />
+    <Compile Include="EntityFramework\PatientRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GenericRepository.cs" />
-    <Compile Include="Repository.V1.cs" />
-    <Compile Include="TestResultGenericRepository.cs" />
+    <Compile Include="EntityFramework\GenericRepository.cs" />
+    <Compile Include="EntityFramework\TestResultRepository.cs" />
     <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>

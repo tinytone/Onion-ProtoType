@@ -13,6 +13,9 @@ namespace Company.Module.Web.Host
         {
             Mapper.CreateMap<Patient, PatientDTO>();
             Mapper.CreateMap<PatientDTO, Patient>();
+
+            Mapper.CreateMap<TestResult, TestResultDTO>();
+            Mapper.CreateMap<TestResultDTO, TestResult>();
         }
 
         //// ----------------------------------------------------------------------------------------------------------

@@ -6,9 +6,8 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 using Company.Module.Domain.Interfaces;
-using Company.Module.Repositories.EntityFramework;
 
-namespace Company.Module.Repositories
+namespace Company.Module.Repositories.EntityFramework
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity>, IDisposable
         where TEntity : class, IIdentifiable
@@ -46,6 +45,18 @@ namespace Company.Module.Repositories
         public TEntity Get(int id)
         {
             return this.context.Set<TEntity>().Find(id);
+        }
+
+        //// ----------------------------------------------------------------------------------------------------------
+
+        public TEntity GetEager(int id, params Expression<Func<TEntity, object>>[] includes)
+        {
+            var query = this.context.Set<TEntity>();
+
+            foreach (var include in includes)
+                query.Include(include);
+
+            return query.Find(id);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
@@ -144,7 +155,6 @@ namespace Company.Module.Repositories
         public void Delete(TEntity t)
         {
             this.context.Set<TEntity>().Remove(t);
-
 
             // commented out as this is performed by the Unit of Work
             // this.context.SaveChanges();

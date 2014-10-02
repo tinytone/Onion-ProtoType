@@ -21,7 +21,10 @@ namespace Company.Module.Application.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        public PatientService(IUnitOfWork unitOfWork, IPatientRepository patientRepository, IMappingEngine mapper)
+        public PatientService(
+            IUnitOfWork unitOfWork, 
+            IPatientRepository patientRepository, 
+            IMappingEngine mapper)
         {
             Contract.Requires<ArgumentNullException>(unitOfWork != null);
             Contract.Requires<ArgumentNullException>(patientRepository != null);
@@ -82,24 +85,10 @@ namespace Company.Module.Application.AggregateRootServices
         {
             var patient = this.mapper.Map<PatientDTO, Patient>(patientDTO);
 
-            this.patientRepository.Insert(patient);
+            var insertedPatient = this.patientRepository.Insert(patient);
             this.unitOfWork.Save();
 
-            return patient;
-        }
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        public ITestResult ProcessTest(ITestSpecifications testSpecifications)
-        {
-            var patient = this.patientRepository.GetByNhsNumber(testSpecifications.NhsNumber);
-            
-            var testResult = patient.PerformTest(testSpecifications);
-
-            //db.TestResults.Add(testResult);
-            //db.SaveChanges();
-
-            return testResult;
+            return insertedPatient;
         }
 
         //// ----------------------------------------------------------------------------------------------------------
