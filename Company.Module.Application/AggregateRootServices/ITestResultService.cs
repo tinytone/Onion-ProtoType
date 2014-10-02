@@ -1,8 +1,11 @@
-﻿using Company.Module.Domain.Interfaces;
+﻿using System.Diagnostics.Contracts;
+
+using Company.Module.Domain.Interfaces;
 using Company.Module.Shared.DTO;
 
 namespace Company.Module.Application.AggregateRootServices
 {
+    [ContractClass(typeof(TestResultServiceContract))]
     public interface ITestResultService
     {
         //// ----------------------------------------------------------------------------------------------------------

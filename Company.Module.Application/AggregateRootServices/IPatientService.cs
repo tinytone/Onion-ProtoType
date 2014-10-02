@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 
 using Company.Module.Domain;
-using Company.Module.Domain.Interfaces;
 using Company.Module.Shared.DTO;
 
 namespace Company.Module.Application.AggregateRootServices
 {
+    [ContractClass(typeof(PatientServiceContract))]
     public interface IPatientService
     {
         //// ----------------------------------------------------------------------------------------------------------

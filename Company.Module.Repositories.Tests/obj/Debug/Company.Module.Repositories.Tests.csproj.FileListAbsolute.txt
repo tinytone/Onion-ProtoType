@@ -41,3 +41,22 @@ C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repos
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.xml
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.xml
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.Interfaces.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\NHamcrest.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\NHamcrest.Tests.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\MbUnit.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Gallio.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.Interfaces.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.xml
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.xml
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.csprojResolveAssemblyReference.cache
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.pdb

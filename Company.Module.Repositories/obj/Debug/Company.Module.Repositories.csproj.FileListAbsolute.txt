@@ -49,7 +49,6 @@ C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\EntityFramework.
 C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\Company.Module.Domain.pdb
 C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\EntityFramework.xml
 C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\EntityFramework.SqlServer.xml
-C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.csprojResolveAssemblyReference.cache
 C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Decl\Company.Module.Repositories.dll
 C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Decl\Company.Module.Repositories.pdb
 C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Company.Module.Repositoriesccrefgen.rsp
