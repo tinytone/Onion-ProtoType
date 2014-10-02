@@ -4,7 +4,6 @@ using System.Web.Http;
 
 using AutoMapper;
 
-using Company.Module.Repositories.EntityFramework;
 using Company.Module.Web.Host.IoC;
 
 using StructureMap;
@@ -15,7 +14,7 @@ namespace Company.Module.Web.Host
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        public static void RegisterDependencyResolver(HttpConfiguration config)
+        public static IContainer RegisterDependencyResolver(HttpConfiguration config)
         {
             var container = new Container(x =>
             {
@@ -31,7 +30,12 @@ namespace Company.Module.Web.Host
                 });
             });
 
+            // container.Configure(x => x.For<IRepository>().Use<Repository>().Ctor<DbContext>().Is(dataContext));
+            // container.Configure(x => x.For<IUnitOfWork>().Use<UnitOfWork>());
+
             config.DependencyResolver = new StructureMapContainer(container);
+
+            return container;
         }
 
         //// ----------------------------------------------------------------------------------------------------------

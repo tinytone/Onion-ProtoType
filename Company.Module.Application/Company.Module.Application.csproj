@@ -82,6 +82,8 @@
   <ItemGroup>
     <Compile Include="AggregateRootServices\IPatientService.cs" />
     <Compile Include="AggregateRootServices\ITestResultService.cs" />
+    <Compile Include="AggregateRootServices\PatientServiceContract.cs" />
+    <Compile Include="AggregateRootServices\TestResultServiceContract.cs" />
     <Compile Include="AggregateRootServices\PatientService.cs" />
     <Compile Include="AggregateRootServices\TestResultService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
