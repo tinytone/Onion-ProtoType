@@ -1,0 +1,45 @@
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Application\obj\Debug\Company.Module.Application.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Application.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Application.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\CodeContracts\Company.Module.Application.Contracts.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\CodeContracts\Company.Module.Application.Contracts.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\AutoMapper.Net4.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\AutoMapper.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Shared.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Shared.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\bin\Debug\AutoMapper.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\obj\Debug\Decl\Company.Module.Application.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\obj\Debug\Decl\Company.Module.Application.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Applicationccrefgen.rsp
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.rewritten
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\CodeContracts\Company.Module.Application.Contracts.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\CodeContracts\Company.Module.Application.Contracts.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\AutoMapper.Net4.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Application.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Application.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\AutoMapper.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Shared.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\Company.Module.Shared.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\AutoMapper.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Decl\Company.Module.Application.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Decl\Company.Module.Application.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Applicationccrefgen.rsp
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.rewritten
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.pdb

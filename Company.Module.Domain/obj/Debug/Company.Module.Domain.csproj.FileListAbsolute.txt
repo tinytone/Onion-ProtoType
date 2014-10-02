@@ -1,0 +1,22 @@
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\bin\Debug\CodeContracts\Company.Module.Domain.Contracts.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\bin\Debug\CodeContracts\Company.Module.Domain.Contracts.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\obj\Debug\Decl\Company.Module.Domain.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\obj\Debug\Decl\Company.Module.Domain.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domainccrefgen.rsp
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.rewritten
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\bin\Debug\CodeContracts\Company.Module.Domain.Contracts.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\bin\Debug\CodeContracts\Company.Module.Domain.Contracts.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Decl\Company.Module.Domain.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Decl\Company.Module.Domain.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domainccrefgen.rsp
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.rewritten
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.pdb

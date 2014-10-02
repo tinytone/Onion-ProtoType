@@ -1,0 +1,41 @@
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories\bin\Debug\Company.Module.Repositories.dll
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories\bin\Debug\Company.Module.Repositories.pdb
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories\bin\Debug\Company.Module.Domain.Interfaces.dll
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories\bin\Debug\Company.Module.Domain.Interfaces.pdb
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.csprojResolveAssemblyReference.cache
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.dll
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\CodeContracts\Company.Module.Repositories.Contracts.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\CodeContracts\Company.Module.Repositories.Contracts.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\obj\Debug\Decl\Company.Module.Repositories.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\obj\Debug\Decl\Company.Module.Repositories.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositoriesccrefgen.rsp
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.rewritten
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\CodeContracts\Company.Module.Repositories.Contracts.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\CodeContracts\Company.Module.Repositories.Contracts.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Decl\Company.Module.Repositories.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Decl\Company.Module.Repositories.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositoriesccrefgen.rsp
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.rewritten
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.pdb

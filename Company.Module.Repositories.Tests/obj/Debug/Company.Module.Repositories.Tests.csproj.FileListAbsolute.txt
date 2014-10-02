@@ -1,0 +1,43 @@
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.dll
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.pdb
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.csprojResolveAssemblyReference.cache
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.dll
+c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.Interfaces.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\NHamcrest.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\NHamcrest.Tests.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\MbUnit.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Gallio.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.Interfaces.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.Interfaces.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\NHamcrest.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\NHamcrest.Tests.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\MbUnit.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Gallio.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.Interfaces.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.pdb

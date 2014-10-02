@@ -1,0 +1,173 @@
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.dll.config
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Owin.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Company.Module.Web.Host\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.dll.config
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Application.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Shared.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\AutoMapper.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\StructureMap.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Owin.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Application.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Shared.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\AutoMapper.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\StructureMap.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\StructureMap.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.dll
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.pdb
+C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.csprojResolveAssemblyReference.cache
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.dll.config
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.Tests.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Application.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Domain.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Shared.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Repositories.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\AutoMapper.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\StructureMap.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Owin.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\EntityFramework.dll
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Application.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Domain.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Shared.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Web.Host.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\AutoMapper.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\StructureMap.pdb
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\StructureMap.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\bin\Debug\EntityFramework.xml
+C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Web.Host.Tests\obj\Debug\Company.Module.Web.Host.Tests.pdb
