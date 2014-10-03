@@ -6,7 +6,11 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 
+using AutoMapper;
+
 using Company.Module.Application.AggregateRootServices;
+using Company.Module.Domain;
+using Company.Module.Domain.Interfaces;
 using Company.Module.Shared.DTO;
 
 namespace Company.Module.Web.Host.Controllers
@@ -16,22 +20,32 @@ namespace Company.Module.Web.Host.Controllers
         //// ----------------------------------------------------------------------------------------------------------
 
         private readonly IPatientService patientService;
+        private readonly IMappingEngine mapper;
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        public PatientController(IPatientService patientService)
+        public PatientController(
+            IPatientService patientService, 
+            IMappingEngine mapper)
         {
             Contract.Requires<ArgumentNullException>(patientService != null);
+            Contract.Requires<ArgumentNullException>(mapper != null);
 
             this.patientService = patientService;
+            this.mapper = mapper;
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         // GET: api/Patient
-        public IEnumerable<PatientDTO> Get()
+        [ResponseType(typeof(IEnumerable<PatientDTO>))]
+        public IHttpActionResult Get()
         {
-            return this.patientService.GetAll();
+            var patients = this.patientService.GetAll();
+
+            var patientDtos = this.mapper.Map<IEnumerable<Patient>, IEnumerable<PatientDTO>>(patients);
+
+            return Ok(patientDtos);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
@@ -41,19 +55,21 @@ namespace Company.Module.Web.Host.Controllers
         [Route("api/patient/{id}", Order = 1)]
         public IHttpActionResult GetByPatientId(int id)
         {
-            var patientDTO = this.patientService.GetByPatientId(id);
+            var patient = this.patientService.GetByPatientId(id);
 
-            if (NotFound(patientDTO))
+            if (NotFound(patient))
                 PatientNotFoundException();
+
+            var patientDTO = this.mapper.Map<Patient, PatientDTO>(patient);
 
             return Ok(patientDTO);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
-        private bool NotFound(PatientDTO patientDTO)
+        private bool NotFound(Patient patient)
         {
-            return patientDTO == null;
+            return patient == null;
         }
 
         //// ----------------------------------------------------------------------------------------------------------
@@ -70,10 +86,12 @@ namespace Company.Module.Web.Host.Controllers
         [Route("api/patient/NHSNumber/{nhsNumber}", Order = 2)]
         public IHttpActionResult GetByNhsNumber(string nhsNumber)
         {
-            var patientDTO = this.patientService.GetByNhsNumber(nhsNumber);
+            var patient = this.patientService.GetByNhsNumber(nhsNumber);
 
-            if (NotFound(patientDTO))
+            if (NotFound(patient))
                 PatientNotFoundException();
+
+            var patientDTO = this.mapper.Map<Patient, PatientDTO>(patient);
 
             return Ok(patientDTO);
         }
@@ -83,13 +101,15 @@ namespace Company.Module.Web.Host.Controllers
         // POST: api/Patient
         public HttpResponseMessage Post([FromBody]PatientDTO patientDTO)
         {
-            var patient = this.patientService.CreatePatient(patientDTO);
+            var patient = this.mapper.Map<PatientDTO, Patient>(patientDTO);
 
-            if (patient.Id > 0)
+            var insertedPatient = this.patientService.CreatePatient(patient);
+
+            if (insertedPatient.Id > 0)
             {
-                var response = Request.CreateResponse(HttpStatusCode.Created, patient);
+                var response = Request.CreateResponse(HttpStatusCode.Created, insertedPatient);
 
-                var uri = Url.Link("DefaultApi", new { id = patient.Id });
+                var uri = Url.Link("DefaultApi", new { id = insertedPatient.Id });
                 response.Headers.Location = new Uri(uri);
                 return response;
             }

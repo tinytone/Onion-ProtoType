@@ -2,8 +2,8 @@
 using System.Diagnostics.Contracts;
 using System.Web.Mvc;
 
-using Company.Module.Repositories;
-using Company.Module.Repositories.EntityFramework;
+using Company.Module.Application.AggregateRootServices;
+using Company.Module.Web.Host.Models;
 
 namespace Company.Module.Web.Host.Controllers
 {
@@ -11,25 +11,15 @@ namespace Company.Module.Web.Host.Controllers
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        private readonly IPatientRepository patientRepository;
+        private readonly IPatientService patientService;
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        public HomeController()
+        public HomeController(IPatientService patientService)
         {
-            IContext context = new Context();
-            IUnitOfWork unitOfWork = new UnitOfWork(context);
+            Contract.Requires<ArgumentNullException>(patientService != null);
 
-            this.patientRepository = new PatientRepository(unitOfWork);
-        }
-
-        //// ----------------------------------------------------------------------------------------------------------
-
-        public HomeController(IPatientRepository patientRepository)
-        {
-            Contract.Requires<ArgumentNullException>(patientRepository != null);
-
-            this.patientRepository = patientRepository;
+            this.patientService = patientService;
         }
 
 
@@ -37,9 +27,11 @@ namespace Company.Module.Web.Host.Controllers
 		 
         public ActionResult Index()
         {
-            var patients = this.patientRepository.GetAll();
+            var patients = this.patientService.GetAll();
 
-            return View(patients);
+            var viewModel = new PatientViewModel { Patients = patients };
+
+            return View(viewModel);
         }
 
         //// ----------------------------------------------------------------------------------------------------------

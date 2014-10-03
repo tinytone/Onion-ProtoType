@@ -6,7 +6,7 @@ using Company.Module.Domain.Interfaces;
 
 namespace Company.Module.Domain
 {
-    public sealed class TestResult : ITestResult
+    public sealed class TestResult : IIdentifiable
     {
         //// ----------------------------------------------------------------------------------------------------------
 

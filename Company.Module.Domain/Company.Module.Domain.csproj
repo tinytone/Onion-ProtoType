@@ -71,8 +71,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IIdentifiable.cs" />
-    <Compile Include="Interfaces\IPatient.cs" />
-    <Compile Include="Interfaces\ITestResult.cs" />
     <Compile Include="Interfaces\ITestSpecifications.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

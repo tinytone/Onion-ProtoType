@@ -3,6 +3,7 @@
 using AutoMapper;
 
 using Company.Module.Domain;
+using Company.Module.Domain.Interfaces;
 using Company.Module.Shared.DTO;
 
 namespace Company.Module.Web.Host

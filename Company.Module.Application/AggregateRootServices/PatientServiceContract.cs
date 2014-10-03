@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Company.Module.Domain;
-using Company.Module.Shared.DTO;
+using Company.Module.Domain.Interfaces;
 
 namespace Company.Module.Application.AggregateRootServices
 {
@@ -14,15 +11,15 @@ namespace Company.Module.Application.AggregateRootServices
     internal abstract class PatientServiceContract : IPatientService
     {
         //// ----------------------------------------------------------------------------------------------------------
-		 
-        public IEnumerable<PatientDTO> GetAll()
+
+        public IEnumerable<Patient> GetAll()
         {
             throw new NotImplementedException("This class is only used to provide contract requirements for IPatientService.");
         }
 
         //// ----------------------------------------------------------------------------------------------------------
-		 
-        public PatientDTO GetByPatientId(int id)
+
+        public Patient GetByPatientId(int id)
         {
             Contract.Requires<ArgumentOutOfRangeException>(id > 0);
 
@@ -30,8 +27,8 @@ namespace Company.Module.Application.AggregateRootServices
         }
 
         //// ----------------------------------------------------------------------------------------------------------
-		 
-        public PatientDTO GetByNhsNumber(string nhsNumber)
+
+        public Patient GetByNhsNumber(string nhsNumber)
         {
             Contract.Requires<ArgumentNullException>(!String.IsNullOrWhiteSpace(nhsNumber));
 
@@ -39,10 +36,10 @@ namespace Company.Module.Application.AggregateRootServices
         }
 
         //// ----------------------------------------------------------------------------------------------------------
-		 
-        public Patient CreatePatient(PatientDTO patientDTO)
+
+        public Patient CreatePatient(Patient patient)
         {
-            Contract.Requires<ArgumentNullException>(patientDTO != null);
+            Contract.Requires<ArgumentNullException>(patient != null);
 
             throw new NotImplementedException("This class is only used to provide contract requirements for IPatientService.");
         }
