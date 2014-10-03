@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
 
 using Company.Module.Domain;
 
@@ -28,7 +30,7 @@ namespace Company.Module.Repositories.EntityFramework
 
         public Patient GetById(int id)
         {
-            return GetEager(id);
+            return GetEager(id, patient => patient.TestResults);
         }
 
         //// ----------------------------------------------------------------------------------------------------------

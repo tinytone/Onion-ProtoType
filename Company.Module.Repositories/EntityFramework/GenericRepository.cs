@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
@@ -22,6 +24,8 @@ namespace Company.Module.Repositories.EntityFramework
 
         public GenericRepository(IUnitOfWork unitOfWork)
         {
+            Contract.Requires<ArgumentNullException>(unitOfWork != null);
+
             this.context = unitOfWork.Context as Context;
             this.disposed = false;
         }
@@ -49,6 +53,15 @@ namespace Company.Module.Repositories.EntityFramework
 
         //// ----------------------------------------------------------------------------------------------------------
 
+        public TEntity GetEager(int id, Expression<Func<TEntity, object>> include)
+        {
+            var query = this.context.Set<TEntity>().Include(include);
+
+            return query.SingleOrDefault(x => x.Id == id);
+        }
+
+        //// ----------------------------------------------------------------------------------------------------------
+
         public TEntity GetEager(int id, params Expression<Func<TEntity, object>>[] includes)
         {
             var query = this.context.Set<TEntity>();
@@ -56,6 +69,7 @@ namespace Company.Module.Repositories.EntityFramework
             foreach (var include in includes)
                 query.Include(include);
 
+            //return query.SingleOrDefault(p => p.Id == id);
             return query.Find(id);
         }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Company.Module.Shared.DTO
 {
@@ -27,6 +28,10 @@ namespace Company.Module.Shared.DTO
         //// ----------------------------------------------------------------------------------------------------------
 
         public DateTime DateOfBirth { get; set; }
+
+        //// ----------------------------------------------------------------------------------------------------------
+		 
+        public List<TestResultDTO> TestResults { get; set; } 
 
         //// ----------------------------------------------------------------------------------------------------------
     }

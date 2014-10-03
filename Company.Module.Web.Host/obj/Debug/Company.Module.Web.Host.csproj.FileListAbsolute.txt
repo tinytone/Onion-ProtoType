@@ -309,10 +309,3 @@ C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\bin\Microsoft.Owin.Security.Go
 C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\bin\Microsoft.Owin.Security.Twitter.xml
 C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\bin\System.Web.Http.Owin.xml
-C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\obj\Debug\Company.Module.Web.Host.csprojResolveAssemblyReference.cache
-C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\obj\Debug\Decl\Company.Module.Web.Host.dll
-C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\obj\Debug\Decl\Company.Module.Web.Host.pdb
-C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\obj\Debug\Company.Module.Web.Hostccrefgen.rsp
-C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\obj\Debug\Company.Module.Web.Host.rewritten
-C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\obj\Debug\Company.Module.Web.Host.dll
-C:\GitHub\Onion-ProtoType\Company.Module.Web.Host\obj\Debug\Company.Module.Web.Host.pdb

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Company.Module.Domain.Patient>
+﻿@model Company.Module.Web.Host.Models.PatientViewModel
 
 @{
     ViewBag.Title = "Home Page";
@@ -7,7 +7,7 @@
 <div id="body">
     <h1>Patients (From Server):</h1>
     <ol>
-    @foreach (var patient in Model)
+    @foreach (var patient in Model.Patients)
     {
         <li>@patient.FirstName @patient.Surname (@patient.NHSNumber)</li>
     }

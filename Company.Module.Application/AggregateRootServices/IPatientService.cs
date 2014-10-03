@@ -2,7 +2,6 @@
 using System.Diagnostics.Contracts;
 
 using Company.Module.Domain;
-using Company.Module.Shared.DTO;
 
 namespace Company.Module.Application.AggregateRootServices
 {
@@ -11,19 +10,19 @@ namespace Company.Module.Application.AggregateRootServices
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        IEnumerable<PatientDTO> GetAll();
+        IEnumerable<Patient> GetAll();
             
         //// ----------------------------------------------------------------------------------------------------------
 
-        PatientDTO GetByPatientId(int id);
+        Patient GetByPatientId(int id);
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        PatientDTO GetByNhsNumber(string nhsNumber);
+        Patient GetByNhsNumber(string nhsNumber);
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        Patient CreatePatient(PatientDTO patientDTO);
+        Patient CreatePatient(Patient patient);
 
         //// ----------------------------------------------------------------------------------------------------------
     }

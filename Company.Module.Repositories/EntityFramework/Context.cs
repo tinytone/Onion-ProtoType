@@ -12,8 +12,6 @@ namespace Company.Module.Repositories.EntityFramework
 
         public IDbSet<Patient> Patients { get; set; }
 
-        //// ----------------------------------------------------------------------------------------------------------
-		 
         public IDbSet<TestResult> TestResults { get; set; }
 
         //// ----------------------------------------------------------------------------------------------------------
@@ -31,6 +29,7 @@ namespace Company.Module.Repositories.EntityFramework
 
         public Context() : base("DefaultConnectionString")
         {
+            this.Configuration.LazyLoadingEnabled = false;
         }
 
         //// ----------------------------------------------------------------------------------------------------------

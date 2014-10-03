@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 using Company.Module.Domain.Interfaces;
 
 namespace Company.Module.Domain
 {
-    public class Patient : IPatient
+    public class Patient : IIdentifiable
     {
         //// ----------------------------------------------------------------------------------------------------------
 
@@ -30,12 +31,16 @@ namespace Company.Module.Domain
 
         //// ----------------------------------------------------------------------------------------------------------
 
+        public virtual ICollection<TestResult> TestResults { get; set; }
+
+        //// ----------------------------------------------------------------------------------------------------------
+
         [Timestamp]
         public byte[] RowVersion { get; set; }
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        public ITestResult PerformTest(ITestSpecifications testSpecifications)
+        public TestResult PerformTest(ITestSpecifications testSpecifications)
         {
             foreach (var testCondition in testSpecifications.TestConditions)
             {

@@ -54,7 +54,7 @@ namespace Company.Module.Application.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        private bool IsValid(ITestResult testResult)
+        private bool IsValid(TestResult testResult)
         {
             return testResult != null;
         }
