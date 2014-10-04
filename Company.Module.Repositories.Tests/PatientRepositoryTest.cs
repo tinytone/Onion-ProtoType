@@ -2,13 +2,13 @@
 
 using Company.Module.Repositories.EntityFramework;
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 using Rhino.Mocks;
 
 namespace Company.Module.Repositories.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class PatientRepositoryTest
     {
         //// ----------------------------------------------------------------------------------------------------------
@@ -17,7 +17,7 @@ namespace Company.Module.Repositories.Tests
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestInitialize]
+        [SetUp]
         public void TestInitialize()
         {
             this.mocks = new MockRepository();            
@@ -25,7 +25,7 @@ namespace Company.Module.Repositories.Tests
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestCleanup]
+        [TearDown]
         public void TestCleanup()
         {
             this.mocks.VerifyAll();
@@ -33,7 +33,7 @@ namespace Company.Module.Repositories.Tests
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_UnitOfWorkIsNull_ExpectArgumentNullException()
         {
@@ -50,7 +50,7 @@ namespace Company.Module.Repositories.Tests
 
         //// ----------------------------------------------------------------------------------------------------------
         
-        [TestMethod]
+        [Test]
         public void Constructor_AllDependanciesAreValid_ExpectInstanceWithDefaultState()
         {
             // Arrange
@@ -68,7 +68,7 @@ namespace Company.Module.Repositories.Tests
         /*
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         public void Get_WithValidNumber_ExpectPatientInstance()
         {
             // Arrange

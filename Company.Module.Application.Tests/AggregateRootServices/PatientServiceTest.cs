@@ -7,13 +7,13 @@ using Company.Module.Domain;
 using Company.Module.Repositories;
 using Company.Module.Shared.DTO;
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 using Rhino.Mocks;
 
 namespace Company.Module.Application.Tests.AggregateRootServices
 {
-    [TestClass]
+    [TestFixture]
     public class PatientServiceTest
     {
          //// ----------------------------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestInitialize]
+		[SetUp]
         public void TestInitialize()
         {
             this.mocks = new MockRepository();            
@@ -30,7 +30,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestCleanup]
+        [TearDown]
         public void TestCleanup()
         {
             this.mocks.VerifyAll();
@@ -38,7 +38,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_UnitOfWorkIsNull_ExpectArgumentNullException()
         {
@@ -56,7 +56,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_PatientRepositoryIsNull_ExpectArgumentNullException()
         {
@@ -74,7 +74,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         public void Constructor_AllDependanciesAreValid_ExpectInstanceWithDefaultState()
         {
             // Arrange
@@ -92,7 +92,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         public void GetAll_RetrievesAllPatientsFromRepository_ExpectMappedPatientsToBeReturned()
         {
             // Arrange
@@ -125,7 +125,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void GetByPatientId_PatientIdIsZero_ExpectArgumentOutOfRangeException()
         {
@@ -147,7 +147,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void GetByPatientId_PatientIdIsNegative_ExpectArgumentOutOfRangeException()
         {
@@ -169,7 +169,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         public void GetByPatientId_RetrievesPatientFromRepository_ExpectMappedPatientToBeReturned()
         {
             // Arrange
@@ -203,7 +203,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void GetByNhsNumber_NhsNumberIsNull_ExpectArgumentNullException()
         {
@@ -225,7 +225,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void GetByNhsNumber_NhsNumberIsEmptyString_ExpectArgumentNullException()
         {
@@ -247,7 +247,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         public void GetByNhsNumber_RetrievesPatientFromRepository_ExpectMappedPatientToBeReturned()
         {
             // Arrange
@@ -281,7 +281,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void CreatePatient_PatientIsNull_ExpectArgumentNullException()
         {
@@ -303,7 +303,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         public void CreatePatient_InsertsPatientIntoRepository_ExpectInsertedPatientIdToBeReturned()
         {
             // Arrange
