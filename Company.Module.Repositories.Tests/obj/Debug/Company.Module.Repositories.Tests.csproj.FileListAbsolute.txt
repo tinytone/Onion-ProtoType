@@ -41,3 +41,22 @@ C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repos
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.xml
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.xml
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.Tests.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\NHamcrest.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\NHamcrest.Tests.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\nunit.framework.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\MbUnit.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Gallio.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Domain.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\EntityFramework.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\bin\Debug\nunit.framework.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.csprojResolveAssemblyReference.cache
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Repositories.Tests\obj\Debug\Company.Module.Repositories.Tests.pdb

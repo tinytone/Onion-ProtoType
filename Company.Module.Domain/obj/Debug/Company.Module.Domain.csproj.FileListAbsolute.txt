@@ -20,3 +20,13 @@ C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domai
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.rewritten
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.dll
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Domain\obj\Debug\Company.Module.Domain.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\bin\Debug\CodeContracts\Company.Module.Domain.Contracts.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\bin\Debug\CodeContracts\Company.Module.Domain.Contracts.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\bin\Debug\Company.Module.Domain.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\bin\Debug\Company.Module.Domain.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\obj\Debug\Decl\Company.Module.Domain.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\obj\Debug\Decl\Company.Module.Domain.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\obj\Debug\Company.Module.Domainccrefgen.rsp
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\obj\Debug\Company.Module.Domain.rewritten
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\obj\Debug\Company.Module.Domain.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain\obj\Debug\Company.Module.Domain.pdb

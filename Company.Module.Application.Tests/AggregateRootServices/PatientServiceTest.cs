@@ -39,7 +39,6 @@ namespace Company.Module.Application.Tests.AggregateRootServices
         //// ----------------------------------------------------------------------------------------------------------
 
         [Test]
-        [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_UnitOfWorkIsNull_ExpectArgumentNullException()
         {
             // Arrange
@@ -49,9 +48,10 @@ namespace Company.Module.Application.Tests.AggregateRootServices
             this.mocks.ReplayAll();
 
             // Act
-            GetPatientService(unitOfWork, patientRepository);
-
+            TestDelegate testDelegate = () => GetPatientService(unitOfWork, patientRepository);
+            
             // Assert
+            Assert.Throws<ArgumentNullException>(testDelegate);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
@@ -326,7 +326,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
             Expect.Call(patientRepository.Insert(patient)).Return(insertedPatient);
 
             var unitOfWork = this.mocks.StrictMock<IUnitOfWork>();
-            Expect.Call(unitOfWork.Save()).Return(1);
+            Expect.Call(unitOfWork.SaveChanges()).Return(1);
             this.mocks.ReplayAll();
 
             var service = GetPatientService(unitOfWork, patientRepository);

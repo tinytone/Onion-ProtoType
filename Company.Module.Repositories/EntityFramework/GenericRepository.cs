@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
 using System.Diagnostics.Contracts;
 using System.Linq;
@@ -11,212 +12,120 @@ using Company.Module.Domain.Interfaces;
 
 namespace Company.Module.Repositories.EntityFramework
 {
-    public class GenericRepository<TEntity> : IGenericRepository<TEntity>, IDisposable
+    public class GenericRepository<TEntity> : IGenericRepository<TEntity>
         where TEntity : class, IIdentifiable
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        private readonly Context context;
-
-        private bool disposed;
+        private readonly IObjectSet<TEntity> objectSet;
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        public GenericRepository(IUnitOfWork unitOfWork)
+        public GenericRepository(IObjectContextAdapter contextAdapter)
         {
-            Contract.Requires<ArgumentNullException>(unitOfWork != null);
+            Contract.Requires<ArgumentNullException>(contextAdapter != null);
 
-            this.context = unitOfWork.Context as Context;
-            this.disposed = false;
+            this.objectSet = contextAdapter.ObjectContext.CreateObjectSet<TEntity>();
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public ICollection<TEntity> All()
         {
-            return this.context.Set<TEntity>().ToList();
+            return objectSet.ToList();
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public async Task<ICollection<TEntity>> GetAllAsync()
         {
-            return await this.context.Set<TEntity>().ToListAsync();
+            return await objectSet.ToListAsync();
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public TEntity Get(int id)
         {
-            return this.context.Set<TEntity>().Find(id);
+            return Find(e => e.Id == id);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        public TEntity GetEager(int id, Expression<Func<TEntity, object>> include)
-        {
-            var query = this.context.Set<TEntity>().Include(include);
+        //public TEntity GetEager(int id, Expression<Func<TEntity, object>> include)
+        //{
+        //    var query = this.context.Set<TEntity>().Include(include);
 
-            return query.SingleOrDefault(x => x.Id == id);
-        }
+        //    return query.SingleOrDefault(x => x.Id == id);
+        //}
 
-        //// ----------------------------------------------------------------------------------------------------------
+        ////// ----------------------------------------------------------------------------------------------------------
 
-        public TEntity GetEager(int id, params Expression<Func<TEntity, object>>[] includes)
-        {
-            var query = this.context.Set<TEntity>();
+        //public TEntity GetEager(int id, params Expression<Func<TEntity, object>>[] includes)
+        //{
+        //    var query = this.context.Set<TEntity>();
 
-            foreach (var include in includes)
-                query.Include(include);
+        //    foreach (var include in includes)
+        //        query.Include(include);
 
-            //return query.SingleOrDefault(p => p.Id == id);
-            return query.Find(id);
-        }
+        //    //return query.SingleOrDefault(p => p.Id == id);
+        //    return query.Find(id);
+        //}
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public async Task<TEntity> GetAsync(int id)
         {
-            return await this.context.Set<TEntity>().FindAsync(id);
+            return await FindAsync(e => e.Id == id);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public TEntity Find(Expression<Func<TEntity, bool>> match)
         {
-            return this.context.Set<TEntity>().SingleOrDefault(match);
+            return objectSet.SingleOrDefault(match);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public async Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> match)
         {
-            return await this.context.Set<TEntity>().SingleOrDefaultAsync(match);
+            return await objectSet.SingleOrDefaultAsync(match);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
-        public ICollection<TEntity> FindAll(Expression<Func<TEntity, bool>> match)
+        public IEnumerable<TEntity> FindAll(Expression<Func<TEntity, bool>> match)
         {
-            return this.context.Set<TEntity>().Where(match).ToList();
-        }
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        public async Task<ICollection<TEntity>> FindAllAsync(Expression<Func<TEntity, bool>> match)
-        {
-            return await this.context.Set<TEntity>().Where(match).ToListAsync();
+            return objectSet.Where(match);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public TEntity Add(TEntity t)
         {
-            this.context.Set<TEntity>().Add(t);
-
-            // commented out as this is performed by the Unit of Work
-            // this.context.SaveChanges();
+            objectSet.AddObject(t);
             return t;
-        }
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        public async Task<TEntity> AddAsync(TEntity t)
-        {
-            this.context.Set<TEntity>().Add(t);
-            await this.context.SaveChangesAsync();
-            return t;
-        }
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        public TEntity Update(TEntity updated, int key)
-        {
-            if (updated == null)
-                return null;
-
-            var existing = this.context.Set<TEntity>().Find(key);
-            if (existing != null)
-            {
-                this.context.Entry(existing).CurrentValues.SetValues(updated);
-
-                // commented out as this is performed by the Unit of Work
-                // this.context.SaveChanges();
-            }
-
-            return existing;
-        }
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        public async Task<TEntity> UpdateAsync(TEntity updated, int key)
-        {
-            if (updated == null)
-                return null;
-
-            var existing = await this.context.Set<TEntity>().FindAsync(key);
-            if (existing != null)
-            {
-                this.context.Entry(existing).CurrentValues.SetValues(updated);
-                await this.context.SaveChangesAsync();
-            }
-
-            return existing;
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public void Delete(TEntity t)
         {
-            this.context.Set<TEntity>().Remove(t);
-
-            // commented out as this is performed by the Unit of Work
-            // this.context.SaveChanges();
-        }
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        public async Task<int> DeleteAsync(TEntity t)
-        {
-            this.context.Set<TEntity>().Remove(t);
-            return await this.context.SaveChangesAsync();
+            objectSet.DeleteObject(t);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public int Count()
         {
-            return this.context.Set<TEntity>().Count();
+            return objectSet.Count();
         }
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
         public async Task<int> CountAsync()
         {
-            return await this.context.Set<TEntity>().CountAsync();
-        }
-
-        //// ----------------------------------------------------------------------------------------------------------
-
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!this.disposed)
-            {
-                if (disposing)
-                {
-                    if (this.context != null)
-                        this.context.Dispose();
-                }
-            }
-
-            this.disposed = true;
-        }
-        //// ----------------------------------------------------------------------------------------------------------
-
-        public void Dispose()
-        {
-            Dispose(true);
-            GC.SuppressFinalize(this);
+            return await objectSet.CountAsync();
         }
 
         //// ----------------------------------------------------------------------------------------------------------

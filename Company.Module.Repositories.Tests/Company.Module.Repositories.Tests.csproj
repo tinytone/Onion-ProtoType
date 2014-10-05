@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FakeDbSet.cs" />
+    <Compile Include="FakeObjectSet.cs" />
     <Compile Include="FakePatients.cs" />
     <Compile Include="PatientRepositoryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

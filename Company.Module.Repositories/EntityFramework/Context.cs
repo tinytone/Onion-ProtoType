@@ -10,12 +10,6 @@ namespace Company.Module.Repositories.EntityFramework
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        public IDbSet<Patient> Patients { get; set; }
-
-        public IDbSet<TestResult> TestResults { get; set; }
-
-        //// ----------------------------------------------------------------------------------------------------------
-
         static Context()
         {
             // Database.SetInitializer(new PatientDataInitializer());

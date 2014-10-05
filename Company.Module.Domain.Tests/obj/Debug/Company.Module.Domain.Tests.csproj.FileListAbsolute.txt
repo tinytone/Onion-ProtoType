@@ -8,3 +8,7 @@ C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.
 C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.csprojResolveAssemblyReference.cache
 C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.dll
 C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain.Tests\bin\Debug\Company.Module.Domain.Tests.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain.Tests\bin\Debug\Company.Module.Domain.Tests.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.pdb

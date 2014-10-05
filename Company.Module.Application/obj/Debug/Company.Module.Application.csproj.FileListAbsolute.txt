@@ -43,3 +43,25 @@ C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Appli
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.rewritten
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.dll
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application\obj\Debug\Company.Module.Application.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\CodeContracts\Company.Module.Application.Contracts.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\CodeContracts\Company.Module.Application.Contracts.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\AutoMapper.Net4.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\Company.Module.Application.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\Company.Module.Application.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\AutoMapper.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\Company.Module.Domain.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\Company.Module.Repositories.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\Company.Module.Shared.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\EntityFramework.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\Company.Module.Domain.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\Company.Module.Shared.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\AutoMapper.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\bin\Debug\EntityFramework.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\obj\Debug\Company.Module.Application.csprojResolveAssemblyReference.cache
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\obj\Debug\Decl\Company.Module.Application.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\obj\Debug\Decl\Company.Module.Application.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\obj\Debug\Company.Module.Applicationccrefgen.rsp
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\obj\Debug\Company.Module.Application.rewritten
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\obj\Debug\Company.Module.Application.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application\obj\Debug\Company.Module.Application.pdb
