@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 
 using Company.Module.Domain;
@@ -14,8 +15,8 @@ namespace Company.Module.Repositories.EntityFramework
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        public PatientRepository(IUnitOfWork unitOfWork)
-            : base(unitOfWork)
+        public PatientRepository(IObjectContextAdapter contextAdapter)
+            : base(contextAdapter)
         {
         }
 
@@ -30,7 +31,8 @@ namespace Company.Module.Repositories.EntityFramework
 
         public Patient GetById(int id)
         {
-            return GetEager(id, patient => patient.TestResults);
+            // TODO : Eagerly load the test results.
+            return Get(id);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
@@ -42,9 +44,10 @@ namespace Company.Module.Repositories.EntityFramework
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
-        public Patient Insert(Patient patient)
+        public void Insert(Patient patient)
         {
-            return Add(patient);
+            // NOTE : Not sure that we need to return the patient
+            Add(patient);
         }
 
         //// ----------------------------------------------------------------------------------------------------------

@@ -55,7 +55,7 @@ namespace Company.Module.Application.AggregateRootServices
         {
             var insertedPatient = this.patientRepository.Insert(patient);
 
-            this.unitOfWork.Save();
+            this.unitOfWork.SaveChanges();
 
             return insertedPatient;
         }

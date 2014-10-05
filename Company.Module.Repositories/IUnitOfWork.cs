@@ -1,18 +1,10 @@
-﻿using System;
-
-using Company.Module.Repositories.EntityFramework;
-
-namespace Company.Module.Repositories
+﻿namespace Company.Module.Repositories
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        int Save();
-
-        //// ----------------------------------------------------------------------------------------------------------
-
-        IContext Context { get; }
+        void SaveChanges();
 
         //// ----------------------------------------------------------------------------------------------------------
     }

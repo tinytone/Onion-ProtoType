@@ -43,3 +43,31 @@ C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Appli
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.xml
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\EntityFramework.xml
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\CodeContracts\Company.Module.Application.Tests.Contracts.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\CodeContracts\Company.Module.Application.Tests.Contracts.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\AutoMapper.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Domain.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Repositories.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Shared.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\nunit.framework.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\EntityFramework.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Domain.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Repositories.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Shared.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\AutoMapper.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\nunit.framework.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\EntityFramework.xml
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.csprojResolveAssemblyReference.cache
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Decl\Company.Module.Application.Tests.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Decl\Company.Module.Application.Tests.pdb
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Testsccrefgen.rsp
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.rewritten
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.dll
+C:\Users\STEPHEN\Documents\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.pdb

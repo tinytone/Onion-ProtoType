@@ -8,13 +8,13 @@ using Company.Module.Domain.Interfaces;
 using Company.Module.Repositories;
 using Company.Module.Shared.DTO;
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 using Rhino.Mocks;
 
 namespace Company.Module.Application.Tests.AggregateRootServices
 {
-    [TestClass]
+    [TestFixture]
     public class TestResultServiceTest
     {
         //// ----------------------------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestInitialize]
+		[SetUp]
         public void TestInitialize()
         {
             this.mocks = new MockRepository();
@@ -31,7 +31,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestCleanup]
+        [TearDown]
         public void TestCleanup()
         {
             this.mocks.VerifyAll();
@@ -39,7 +39,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_UnitOfWorkIsNull_ExpectArgumentNullException()
         {
@@ -59,7 +59,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+		[Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_PatientRepositoryIsNull_ExpectArgumentNullException()
         {
@@ -79,7 +79,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+		[Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_TestResultRepositoryIsNull_ExpectArgumentNullException()
         {
@@ -99,7 +99,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+		[Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_MappingEngineIsNull_ExpectArgumentNullException()
         {
@@ -119,7 +119,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+		[Test]
         public void Constructor_AllDependanciesAreValid_ExpectInstance()
         {
             // Arrange
@@ -139,7 +139,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+		[Test]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void GetId_IdIsZero_ExpectArgumentOutOfRangeException()
         {
@@ -163,7 +163,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+		[Test]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void GetId_IdIsNegative_ExpectArgumentOutOfRangeException()
         {
@@ -187,7 +187,7 @@ namespace Company.Module.Application.Tests.AggregateRootServices
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+		[Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void ProcessTest_TestSpecificationsIsNull_ExpectArgumentNullException()
         {

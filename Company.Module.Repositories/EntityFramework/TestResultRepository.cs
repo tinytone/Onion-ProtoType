@@ -1,4 +1,5 @@
-﻿using Company.Module.Domain;
+﻿using System.Data.Entity.Infrastructure;
+using Company.Module.Domain;
 
 namespace Company.Module.Repositories.EntityFramework
 {
@@ -6,8 +7,8 @@ namespace Company.Module.Repositories.EntityFramework
     {
         //// ----------------------------------------------------------------------------------------------------------
 
-        public TestResultRepository(IUnitOfWork unitOfWork)
-            : base(unitOfWork)
+        public TestResultRepository(IObjectContextAdapter contextAdapter)
+            : base(contextAdapter)
         {
         }
 

@@ -68,7 +68,7 @@ namespace Company.Module.Application.AggregateRootServices
             var testResult = patient.PerformTest(testSpecifications) as TestResult;
 
             var insertedTestResult = this.testResultRepository.Insert(testResult);
-            this.unitOfWork.Save();
+            this.unitOfWork.SaveChanges();
 
             var testResultDTO = this.mapper.Map<TestResult, TestResultDTO>(insertedTestResult);
 

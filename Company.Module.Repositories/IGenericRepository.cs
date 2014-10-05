@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
@@ -36,11 +35,7 @@ namespace Company.Module.Repositories
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
-        ICollection<TEntity> FindAll(Expression<Func<TEntity, bool>> match);
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        Task<ICollection<TEntity>> FindAllAsync(Expression<Func<TEntity, bool>> match);
+        IEnumerable<TEntity> FindAll(Expression<Func<TEntity, bool>> match);
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
@@ -48,23 +43,7 @@ namespace Company.Module.Repositories
 
         //// ----------------------------------------------------------------------------------------------------------
 		 
-        Task<TEntity> AddAsync(TEntity t);
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        TEntity Update(TEntity updated, int key);
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        Task<TEntity> UpdateAsync(TEntity updated, int key);
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
         void Delete(TEntity t);
-
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        Task<int> DeleteAsync(TEntity t);
 
         //// ----------------------------------------------------------------------------------------------------------
 		 

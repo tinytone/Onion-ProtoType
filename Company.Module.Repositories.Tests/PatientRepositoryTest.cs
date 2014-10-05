@@ -1,14 +1,16 @@
 ﻿using System;
-
+using System.Data.Entity.Core.Objects;
+using System.Data.Entity.Infrastructure;
+using Company.Module.Domain;
 using Company.Module.Repositories.EntityFramework;
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 using Rhino.Mocks;
 
 namespace Company.Module.Repositories.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class PatientRepositoryTest
     {
         //// ----------------------------------------------------------------------------------------------------------
@@ -17,7 +19,7 @@ namespace Company.Module.Repositories.Tests
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestInitialize]
+        [SetUp]
         public void TestInitialize()
         {
             this.mocks = new MockRepository();            
@@ -25,7 +27,7 @@ namespace Company.Module.Repositories.Tests
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestCleanup]
+        [TearDown]
         public void TestCleanup()
         {
             this.mocks.VerifyAll();
@@ -33,7 +35,7 @@ namespace Company.Module.Repositories.Tests
 
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_UnitOfWorkIsNull_ExpectArgumentNullException()
         {
@@ -50,74 +52,62 @@ namespace Company.Module.Repositories.Tests
 
         //// ----------------------------------------------------------------------------------------------------------
         
-        [TestMethod]
-        public void Constructor_AllDependanciesAreValid_ExpectInstanceWithDefaultState()
-        {
-            // Arrange
-            var context = this.mocks.StrictMock<IContext>();
-            var unitOfWork = PrepareUnitOfWork(context);
+        //[Test]
+        //public void Constructor_AllDependanciesAreValid_ExpectInstanceWithDefaultState()
+        //{
+        //    // Arrange
+        //    var context = this.mocks.StrictMock<IContext>();
+        //    var unitOfWork = PrepareUnitOfWork(context);
 
-            this.mocks.ReplayAll();
+        //    this.mocks.ReplayAll();
 
-            // Act
-            var repository = GetRepository(unitOfWork);
+        //    // Act
+        //    var repository = GetRepository(unitOfWork);
 
-            // Assert
-            Assert.IsNotNull(repository);
-        }
-        /*
+        //    // Assert
+        //    Assert.IsNotNull(repository);
+        //}
+        
         //// ----------------------------------------------------------------------------------------------------------
 
-        [TestMethod]
-        public void Get_WithValidNumber_ExpectPatientInstance()
+        [Test]
+        public void GetByNhsNumber_WithValidNumber_ExpectPatientInstance()
         {
             // Arrange
             const string NhsNumber = "123 123 1234";
 
-            //Patient[] patients = new[]
-            //                   {
-            //                       new Patient { Id = 1, NHSNumber = "111 111 1111" },
-            //                       new Patient { Id = 2, NHSNumber = "222 222 2222" },
-            //                       new Patient { Id = 3, NHSNumber = "333 333 3333" },
-            //                       new Patient { Id = 4, NHSNumber = "123 123 1234" }
-            //                   };
+            var patients = new[]
+                               {
+                                   new Patient { Id = 1, NHSNumber = "111 111 1111" },
+                                   new Patient { Id = 2, NHSNumber = "222 222 2222" },
+                                   new Patient { Id = 3, NHSNumber = "333 333 3333" },
+                                   new Patient { Id = 4, NHSNumber = "123 123 1234" }
+                               };
 
-            var patients = new FakeDbSet<Patient>();
+            var objectSet = new FakeObjectSet<Patient>(patients);
 
-            //var dbset = this.mocks.StrictMock<DbSet<Patient>>();
+            var objectContext = this.mocks.StrictMock<ObjectContext>();
+            Expect.Call(objectContext.CreateObjectSet<Patient>()).Return(objectSet);
 
-            var stuff = this.mocks.StrictMock<FakeDbSet<Patient>>();
-//            Expect.Call(stuff.All(null)).IgnoreArguments().Return(patient);
-            
-            var context = this.mocks.StrictMock<IMyContext>();
-            Expect.Call(context.Patients).Return(patients);
-            
-            var unitOfWork = PrepareUnitOfWork(context);
+            var contextAdapter = this.mocks.StrictMock<IObjectContextAdapter>();
+            Expect.Call(contextAdapter.ObjectContext).Return(objectContext);
 
             this.mocks.ReplayAll();
 
-            var repository = GetRepository(unitOfWork);
+            var repository = GetRepository(contextAdapter);
 
             // Act
-            var result = repository.Get(NhsNumber);
+            var result = repository.GetByNhsNumber(NhsNumber);
 
             // Assert
-            Assert.That(result, Is.NotNull());
+            Assert.That(result, Is.Not.Null);
         }
-        */
-        //// ----------------------------------------------------------------------------------------------------------
-		 
-        private IUnitOfWork PrepareUnitOfWork(IContext context)
-        {
-            var unitOfWork = this.mocks.StrictMock<IUnitOfWork>();
-            Expect.Call(unitOfWork.Context).Return(context).Repeat.AtLeastOnce();
-            return unitOfWork;
-        }
+
         //// ----------------------------------------------------------------------------------------------------------
 
-        private IPatientRepository GetRepository(IUnitOfWork unitOfWork)
+        private IPatientRepository GetRepository(IObjectContextAdapter contextAdapter)
         {
-            return new PatientRepository(unitOfWork);
+            return new PatientRepository(contextAdapter);
         }
 
         //// ----------------------------------------------------------------------------------------------------------
