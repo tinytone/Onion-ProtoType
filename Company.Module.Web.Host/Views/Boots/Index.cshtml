@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewBag.Title = "Boots Index";
+}
+
+@section Styles
+{
+    @Styles.Render("/Content/bootcloset.css")
+}
+
+<div id="banner">
+    <img src="~/Content/Images/banner.boot.closet.png" alt="The Boot Closet" />
+</div>
+<div id="pageContent">
+    <h1>Choose your boots</h1>
+    <div>
+        <div id="selectionsPane">
+            <label for="bootChooserControl">Boot style:</label>
+            <select id="bootChooserControl" name="style"></select>
+            <label for="colorChooserControl">Colour:</label>
+            <select id="colorChooserControl" name="colour" disabled="disabled"></select>
+            <label for="sizeChooserControl">Size:</label>
+            <select id="sizeChooserControl" name="size" disabled="disabled"></select>
+        </div>
+        <div id="productDetailPane"></div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+
+        $(function ()
+        {
+            // ---------------------------------------------------------------------------------------------------------------------------------
+            // Populate the Boot Styles DropDown on Startup (this should be done on the server, but it's just for illustrative/demo purposes)
+            // Note: this call uses Web API with JSON being returned (which is why the .load call didn't initially work as the raw html wasn't being returned)
+            // ---------------------------------------------------------------------------------------------------------------------------------
+
+            //$('#bootChooserControl').load('/api/boots/GetBootStyleOptions');
+
+            $.getJSON("/api/boots/GetBootStyleOptions", function (data) {
+                var items = [];
+
+                for (var i = 0; i < data.length; i++) {
+                    var bootStyle = data[i];
+                    items.push("<option value='" + bootStyle.key + "'>" + bootStyle.value + "</option>");
+                }
+
+                $('#bootChooserControl').html(items);
+            });
+
+            // ---------------------------------------------------------------------------------------------------------------------------------
+            // When the Boot Styles DropDown changes, fetch the Product Details and remove the Default "choose a style" option with the empty Value
+            // Also fetch the available colours for this style and populate the ColoursChooseControl and enable it.
+            // NOTE: This call uses an MVC Controller with raw HTML being returned! (not possible with Web API as only JSON and XML is returned!)
+            // ---------------------------------------------------------------------------------------------------------------------------------
+
+            //$('#bootChooserControl').change(function (event)
+            //{
+            //    $.get(
+            //      '/boots/GetProductDetails',
+            //      { styleId: $(event.target).val() },
+            //      function (response)
+            //      {
+            //          $('#productDetailPane').html(response);
+            //          $('[value=""]', event.target).remove();
+            //      }
+            //    );
+            //});
+
+            $('#bootChooserControl').change(function (event)
+            {
+                $('#productDetailPane').load('/boots/GetProductDetails', $('#bootChooserControl').serialize());
+                $('#colorChooserControl').load('/boots/GetColourOptions', $('#bootChooserControl').serialize(),
+                  function ()
+                  {
+                      $('#colorChooserControl').attr('disabled', false);
+                      $('#sizeChooserControl').attr('disabled', true).find('option').remove();
+                  }
+                );
+            });
+
+            // ---------------------------------------------------------------------------------------------------------------------------------
+            // When the Colour Styles DropDown changes, fetch the Size Details.
+            // NOTE: This call uses an MVC Controller with raw HTML being returned! (not possible with Web API as only JSON and XML is returned!)
+            // ---------------------------------------------------------------------------------------------------------------------------------
+
+            $('#colorChooserControl').change(function (event)
+            {
+                $('#sizeChooserControl').load('/boots/GetSizeOptions',
+                  $('#bootChooserControl,#colorChooserControl').serialize(),
+                  function () {
+                      $('#sizeChooserControl').attr('disabled', false);
+                  }
+                );
+            });
+
+
+        });
+        
+    </script>
+}

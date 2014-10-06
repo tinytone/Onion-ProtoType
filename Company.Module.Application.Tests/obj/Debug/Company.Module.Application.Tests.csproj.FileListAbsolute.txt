@@ -1,45 +1,26 @@
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.dll
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.pdb
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.csprojResolveAssemblyReference.cache
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.dll
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.csprojResolveAssemblyReference.cache
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\AutoMapper.Net4.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\AutoMapper.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Repositories.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Shared.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Domain.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\EntityFramework.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Repositories.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\AutoMapper.xml
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.xml
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Shared.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Domain.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Application.Tests\bin\Debug\EntityFramework.xml
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.csprojResolveAssemblyReference.cache
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\AutoMapper.Net4.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.pdb
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\AutoMapper.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Domain.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Repositories.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Shared.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\EntityFramework.dll
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.pdb
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Domain.pdb
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Repositories.pdb
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Company.Module.Shared.pdb
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\AutoMapper.xml
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.xml
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\bin\Debug\EntityFramework.xml
-C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\CodeContracts\Company.Module.Application.Tests.Contracts.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\CodeContracts\Company.Module.Application.Tests.Contracts.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.Tests.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\AutoMapper.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Domain.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Repositories.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Shared.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\EntityFramework.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Application.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Domain.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Repositories.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Company.Module.Shared.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\AutoMapper.xml
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\Rhino.Mocks.xml
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\bin\Debug\EntityFramework.xml
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.csprojResolveAssemblyReference.cache
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Decl\Company.Module.Application.Tests.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Decl\Company.Module.Application.Tests.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Testsccrefgen.rsp
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.rewritten
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Application.Tests\obj\Debug\Company.Module.Application.Tests.pdb

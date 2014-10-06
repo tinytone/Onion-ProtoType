@@ -9,6 +9,7 @@ using Company.Module.Domain;
 using Company.Module.Domain.Interfaces;
 using Company.Module.Repositories;
 using Company.Module.Web.Host.Controllers;
+using Company.Module.Web.Host.Controllers.MVC;
 using Company.Module.Web.Host.Models;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;

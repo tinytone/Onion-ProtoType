@@ -13,6 +13,7 @@ using Company.Module.Domain;
 using Company.Module.Domain.Interfaces;
 using Company.Module.Shared.DTO;
 using Company.Module.Web.Host.Controllers;
+using Company.Module.Web.Host.Controllers.WebApi;
 using Company.Module.Web.Host.Tests.Extensions;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;

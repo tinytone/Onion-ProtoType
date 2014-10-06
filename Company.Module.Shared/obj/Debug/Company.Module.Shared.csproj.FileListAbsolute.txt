@@ -8,3 +8,13 @@ C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.
 C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Shared\obj\Debug\Decl\Company.Module.Shared.pdb
 C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Shared\obj\Debug\Company.Module.Sharedccrefgen.rsp
 C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Shared\obj\Debug\Company.Module.Shared.rewritten
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\bin\Debug\CodeContracts\Company.Module.Shared.Contracts.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\bin\Debug\CodeContracts\Company.Module.Shared.Contracts.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\bin\Debug\Company.Module.Shared.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\bin\Debug\Company.Module.Shared.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\obj\Debug\Decl\Company.Module.Shared.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\obj\Debug\Decl\Company.Module.Shared.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\obj\Debug\Company.Module.Sharedccrefgen.rsp
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\obj\Debug\Company.Module.Shared.rewritten
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\obj\Debug\Company.Module.Shared.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Shared\obj\Debug\Company.Module.Shared.pdb
