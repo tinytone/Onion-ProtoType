@@ -62,10 +62,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Company.Module.Domain.Interfaces\Company.Module.Interfaces.csproj">
-      <Project>{8B81736A-3010-4217-8246-ACC5F0E55094}</Project>
-      <Name>Company.Module.Interfaces</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Company.Module.Domain\Company.Module.Domain.csproj">
       <Project>{774C456B-EE73-470D-AF5A-E56DF9802DF8}</Project>
       <Name>Company.Module.Domain</Name>

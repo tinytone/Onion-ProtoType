@@ -1,5 +1,9 @@
-﻿using System.Web.Http;
+﻿using System.Linq;
+using System.Net.Http.Formatting;
+using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
+
+using Newtonsoft.Json.Serialization;
 
 namespace Company.Module.Web.Host
 {
@@ -21,6 +25,13 @@ namespace Company.Module.Web.Host
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional });
+
+            var jsonFormatter = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
+            jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
+            // Use this if you want to remove the XML formatter leaving only the JSON formatter behind
+            // var xmlMediaTypeFormatter = config.Formatters.OfType<XmlMediaTypeFormatter>().First();
+            // config.Formatters.Remove(xmlMediaTypeFormatter);
         }
 
         //// ----------------------------------------------------------------------------------------------------------

@@ -39,3 +39,20 @@ C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repos
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.rewritten
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.dll
 C:\Users\tonyh\Dropbox\SIL018-BGO\Source\Onion Architecture\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\CodeContracts\Company.Module.Repositories.Contracts.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\CodeContracts\Company.Module.Repositories.Contracts.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\Company.Module.Repositories.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\Company.Module.Repositories.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\Company.Module.Domain.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\EntityFramework.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\Company.Module.Domain.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\EntityFramework.xml
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.csprojResolveAssemblyReference.cache
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Decl\Company.Module.Repositories.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Decl\Company.Module.Repositories.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Company.Module.Repositoriesccrefgen.rsp
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.rewritten
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Repositories\obj\Debug\Company.Module.Repositories.pdb

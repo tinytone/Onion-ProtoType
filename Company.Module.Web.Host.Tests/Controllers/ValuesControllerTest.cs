@@ -4,6 +4,9 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Web.Http;
+
+using Company.Module.Web.Host.Controllers.WebApi;
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Company.Module.Web.Host;
 using Company.Module.Web.Host.Controllers;

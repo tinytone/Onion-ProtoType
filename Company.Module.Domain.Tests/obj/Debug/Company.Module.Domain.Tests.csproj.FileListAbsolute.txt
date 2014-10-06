@@ -1,10 +1,4 @@
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Domain.Tests\bin\Debug\Company.Module.Domain.Tests.dll
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Domain.Tests\bin\Debug\Company.Module.Domain.Tests.pdb
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.csprojResolveAssemblyReference.cache
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.dll
-c:\users\tonyh\documents\visual studio 2013\Projects\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain.Tests\bin\Debug\Company.Module.Domain.Tests.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain.Tests\bin\Debug\Company.Module.Domain.Tests.pdb
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.csprojResolveAssemblyReference.cache
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.dll
-C:\Users\tonyh\Documents\Visual Studio 2013\Projects\Onion Architecture\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Domain.Tests\bin\Debug\Company.Module.Domain.Tests.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Domain.Tests\bin\Debug\Company.Module.Domain.Tests.pdb
+C:\GitHub\Onion-ProtoType\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.dll
+C:\GitHub\Onion-ProtoType\Company.Module.Domain.Tests\obj\Debug\Company.Module.Domain.Tests.pdb
